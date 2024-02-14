@@ -11,7 +11,7 @@
     <Keyword>WMTS</Keyword>
     <Keyword>GEOWEBCACHE</Keyword>
   </KeywordList>
-  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://map.land.gov.ua/geowebcache/service/wms?SERVICE=WMS&amp;"/>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://reg.dar.gov.ua/sarapi/api/geowebcache/wms?SERVICE=WMS&amp;"/>
   <ContactInformation>
     <ContactPersonPrimary>
       <ContactPerson>Any OK</ContactPerson>
@@ -40,7 +40,7 @@
       <DCPType>
         <HTTP>
           <Get>
-            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://map.land.gov.ua/geowebcache/service/wms?SERVICE=WMS&amp;"/>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://reg.dar.gov.ua/sarapi/api/geowebcache/wms?SERVICE=WMS&amp;"/>
           </Get>
         </HTTP>
       </DCPType>
@@ -50,7 +50,7 @@
       <DCPType>
         <HTTP>
           <Get>
-            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://map.land.gov.ua/geowebcache/service/wms?SERVICE=WMS&amp;"/>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://reg.dar.gov.ua/sarapi/api/geowebcache/wms?SERVICE=WMS&amp;"/>
           </Get>
         </HTTP>
       </DCPType>
@@ -62,7 +62,7 @@
       <DCPType>
         <HTTP>
         <Get>
-          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://map.land.gov.ua/geowebcache/service/wms?SERVICE=WMS&amp;"/>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://reg.dar.gov.ua/sarapi/api/geowebcache/wms?SERVICE=WMS&amp;"/>
         </Get>
         </HTTP>
       </DCPType>
@@ -72,7 +72,7 @@
       <DCPType>
         <HTTP>
         <Get>
-          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://map.land.gov.ua/geowebcache/service/wms?SERVICE=WMS&amp;"/>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://reg.dar.gov.ua/sarapi/api/geowebcache/wms?SERVICE=WMS&amp;"/>
         </Get>
         </HTTP>
       </DCPType>
@@ -84,7 +84,7 @@
       <DCPType>
         <HTTP>
         <Get>
-          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://map.land.gov.ua/geowebcache/service/wms?SERVICE=WMS&amp;"/>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://reg.dar.gov.ua/sarapi/api/geowebcache/wms?SERVICE=WMS&amp;"/>
         </Get>
         </HTTP>
       </DCPType>
@@ -100,13 +100,9 @@
     <Layer>
       <Name>kadastr</Name>
       <Title>kadastr</Title>
-      <SRS>EPSG:900913</SRS>
-      <BoundingBox SRS="EPSG:900913" minx="1252344.2712499984" miny="3757032.813749999" maxx="6261721.356249999" maxy="7514065.627500001"/>
-    </Layer>
-  <Layer>
-      <Name>kadastr</Name>
-      <Title>kadastr_srs</Title>
       <SRS>EPSG:3857</SRS>
+      <CRS></CRS>
+      <BoundingBox SRS="EPSG:900913" minx="1252344.2712499984" miny="3757032.813749999" maxx="6261721.356249999" maxy="7514065.627500001"/>
     </Layer>
     <Layer>
       <Name>admin</Name>
