@@ -1312,8 +1312,8 @@ function display_info(layer) {
             </tr>
             
             <tr>
-            <th style="font-weight:normal; text-align:left"><b>Тип власності:</b> ${selected_layer.feature.properties.ownership}</th>
-            <th><i class="fa fa-clone" id="copy_ownership" aria-hidden="true" style="cursor: pointer; font-size:18px" onclick="copy_value('${selected_layer.feature.properties.ownership}', this.id)"></i></th>
+            <th style="font-weight:normal; text-align:left"><b>Тип власності:</b> ${selected_layer.feature.properties.ownershipcode}</th>
+            <th><i class="fa fa-clone" id="copy_ownership" aria-hidden="true" style="cursor: pointer; font-size:18px" onclick="copy_value('${selected_layer.feature.properties.ownershipcode}', this.id)"></i></th>
             </tr>
             
             <tr>
@@ -1327,7 +1327,7 @@ function display_info(layer) {
             </tr>          
             
             <tr>
-            <th style="font-weight:normal; text-align:left"><b>Площа:</b> ${selected_layer.feature.properties.area + ' ' + selected_layer.feature.properties.unit_area}</th>
+            <th style="font-weight:normal; text-align:left"><b>Площа:</b> ${selected_layer.feature.properties.area}</th>
             <th><i class="fa fa-clone" id="copy_area" aria-hidden="true" style="cursor: pointer; font-size:18px" onclick="copy_value('${selected_layer.feature.properties.area}', this.id)"></i></th>
             </tr>
             <tr>
